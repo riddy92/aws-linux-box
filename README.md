@@ -21,9 +21,9 @@ Download Terraform: https://developer.hashicorp.com/terraform/downloads
 We have to create a configuration file, with the name terraform.tfvars.json like this:
 
   { 
-      "security_tools_key": "ssh-rsa adjljnldjndj… public key”,
-      "security_tools_ami": "ami-xxxxxxxxxxxxxxxxx" ,
-      "region": "us-east-1" ,
+      "security_tools_key": "ssh-rsa adjljnldjndj… public key”,<br>
+      "security_tools_ami": "ami-xxxxxxxxxxxxxxxxx" ,<br>
+      "region": "us-east-1" ,<br>
       "profile": “profile name”
   }
 
