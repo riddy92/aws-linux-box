@@ -1,4 +1,4 @@
-### aws-linux-box
+### AWS Linux Box
 
 Deploy a linux box in the cloud where I can utilize tools such as WireShark and Splunk.
 
