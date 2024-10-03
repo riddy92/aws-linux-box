@@ -18,12 +18,19 @@ https://github.com/collinsmc23/cloud-cybersecurity-homelab
 
 Download Terraform: https://developer.hashicorp.com/terraform/downloads
 
+We have to create a configuration file, with the name terraform.tfvars.json like this:
+
+  { 
+      "security_tools_key": "ssh-rsa adjljnldjndj… public key”,
+      "security_tools_ami": "ami-xxxxxxxxxxxxxxxxx" ,
+      "region": "us-east-1" ,
+      "profile": “profile name”
+  }
+
 `terraform init`: Initialize Terraform.
 
 `terraform plan`: Plan Terraform configuration.
 
-`terraform apply` -var="aws-key": Specify the public key name created in AWS in EC2 -> Network & Security.
-
-    Add Public Key Name in between double quotes.
+`terraform apply`
 
 `terraform destory`: Destroy AWS infrastructure.
