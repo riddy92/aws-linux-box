@@ -11,4 +11,19 @@ https://github.com/collinsmc23/cloud-cybersecurity-homelab
 
 ## Download
 
+  git clone https://github.com/riddy92/aws-linux-box.git
+  cd aws-linux-box
+
 ## Deploy
+
+Download Terraform: https://developer.hashicorp.com/terraform/downloads
+
+terraform init: Initialize Terraform.
+
+terraform plan: Plan Terraform configuration.
+
+terraform apply -var="aws-key": Specify the public key name created in AWS in EC2 -> Network & Security.
+
+    Add Public Key Name in between double quotes.
+
+terraform destory: Destroy AWS infrastructure.
